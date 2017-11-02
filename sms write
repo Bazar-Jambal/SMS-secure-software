@@ -1,0 +1,15 @@
+public class SMSWrite extends Activity {
+ +	
+ +		Intent write = getIntent();
+ +		public final static String SMS_Message = "com.example.SMSTest.MESSAGE";
+ +		public final static String SMS_Phone = "com.example.SMSTest.MESSAGE";
+ +		static TextView txtmsg;
+ +		int s=0;
+ +		Button btnSendSMS;
+ +		//EditText txtPhoneNo;
+ +		EditText txtMessage;
+ +		Ecc ecc; 
+ +		
+ +		String str[]=null;
+ +		int i =0;
+ +		ArrayList<String> al=new ArrayList<String>();
